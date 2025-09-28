@@ -1,0 +1,76 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# === Virtual Environment ===
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb_checkpoints/
+
+# === Logs & Cache ===
+*.log
+*.out
+*.err
+*.pid
+*.gz
+*.swp
+.DS_Store
+*.cache/
+.cache/
+.pytest_cache/
+__pypackages__/
+
+# === IDEs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Data (Heavy) ===
+data/raw/          # keep raw datasets local only
+data/interim/      # temporary intermediate files
+data/tmp/          # scratch data
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.tar
+*.tar.gz
+
+# === Models / Checkpoints ===
+models/
+checkpoints/
+*.bin
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# === HuggingFace / Transformers ===
+*.lock
+*.jsonl.lock
+*.arrow
+*.hdf5
+*.tfrecord
+
+# === OS Files ===
+Thumbs.db
+.DS_Store
